@@ -31,7 +31,7 @@ Users simply supply the name of the desired palette in the main function `amerik
 ```{r }
 amerika_palette("Republican")
 ```
-![](figure/rep.png)
+![](https://github.com/pdwaggoner/amerika/rep.png)
 
 
 ```{r }
