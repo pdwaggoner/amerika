@@ -1,2 +1,1 @@
-# amerika
-American Politics-Inspired Color Palette Generator
+# amerika: An American politics-inspired color palette generator
