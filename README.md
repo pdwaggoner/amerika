@@ -63,7 +63,8 @@ data <- data %>%
 
 # Discrete: "political party" on a three point scale (hypothetical for demo purposes only)
 ggplot(data, aes(Party)) +
-  geom_bar(fill=amerika_palette(name = "Dem_Ind_Rep3")) + theme_bw()
+  geom_bar(fill=amerika_palette(name = "Dem_Ind_Rep3")) + 
+  theme_bw()
 
 
 # Continuous: "ideology" on a 100 point scale (hypothetical for demo purposes only)
@@ -87,11 +88,13 @@ library(tidyverse)
 
 # 5-level (discrete) palette
 ggplot(diamonds, aes(factor(cut), fill = factor(cut))) +
-  geom_bar(fill=amerika_palette("Dem_Ind_Rep5")) + theme_bw()
+  geom_bar(fill=amerika_palette("Dem_Ind_Rep5")) + 
+  theme_bw()
 
 # 7-level (discrete) palette
 ggplot(diamonds, aes(factor(color), fill = factor(color))) +
-  geom_bar(fill=amerika_palette("Dem_Ind_Rep7")) + theme_bw()
+  geom_bar(fill=amerika_palette("Dem_Ind_Rep7")) + 
+  theme_bw()
 ```
 
 ## How do I get `amerika`? 
