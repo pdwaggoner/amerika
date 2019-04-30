@@ -30,11 +30,33 @@ Users simply supply the name of the desired palette in the main function `amerik
 
 ```{r }
 amerika_palette("Republican")
+```
+![](figure/rep.png)
+
+
+```{r }
 amerika_palette("Democrat")
+```
+![](figure/dem.png)
+
+
+```{r }
 amerika_palette("Dem_Ind_Rep3")
+```
+![](figure/dir3.png)
+
+
+```{r }
 amerika_palette("Dem_Ind_Rep5")
+```
+![](figure/dir5.png)
+
+
+```{r }
 amerika_palette("Dem_Ind_Rep7")
 ```
+![](figure/dir7.png)
+
 
 ## Example: Interpolating between existing colors based on the palettes using the "continuous" `type`
 
