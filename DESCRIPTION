@@ -1,0 +1,16 @@
+Package: amerika
+Type: Package
+Title: American Politics-Inspired Color Palette Generator
+Version: 0.1.0
+Authors@R: person("Philip", "Waggoner", role = c("aut", "cre"),
+    email = "philip.waggoner@gmail.com", comment = c(ORCID = "0000-0002-7825-7573"))
+Maintainer: Philip D. Waggoner <philip.waggoner@gmail.com>
+BugReports: https://github.com/pdwaggoner/amerika/issues
+Description: A crisp, clean color palette generator inspired by American politics, with colors ranging from 
+    blue on the left to gray in the middle and red on the right. A variety of palettes allow for a range of
+    applications from brief discrete scales (e.g., three colors for Democrats, Independents, and Republicans) 
+    to continuous interpolated arrays including dozens of shades graded from blue (left) to red (right).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
