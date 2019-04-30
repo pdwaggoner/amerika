@@ -131,7 +131,7 @@ ggplot(data1, aes(id)) +
 ![](polcont.png)
 
 
-## Example: Non-Political Case
+## Example: Non-Political Cases (5 and 7 level palettes)
 
 ```{r }
 library(tidyverse)
