@@ -31,7 +31,7 @@ Users simply supply the name of the desired palette in the main function `amerik
 ```{r }
 amerika_palette("Republican")
 ```
-![](rep.png)
+![ |691x686, 50%](rep.png)
 
 
 ```{r }
