@@ -7,8 +7,7 @@ With wide application in mind, the palette options range from only a few colors 
 ## Installation
 
 ```{r }
-library(devtools)
-install_github("pdwaggoner/amerika")
+devtools::install_github("pdwaggoner/amerika")
 library(amerika)
 
 # v0.1.0 soon to be released on CRAN
