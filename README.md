@@ -4,6 +4,16 @@ With a nod to Franz Kafka's first (and technically incomplete) novel, _Amerika_,
 
 With wide application in mind, the palette options range from only a few colors to several colors, but with discrete and continuous options to offer greatest flexibility to the user. `amerika` allows for a range of applications, from mapping brief discrete scales (e.g., three colors for Democrats, Independents, and Republicans) to continuous interpolated arrays including dozens of shades graded from blue to red (e.g., used to visualize "feeling thermometers"). See below for a list of the palettes followed by a few political and non-political examples.
 
+## Installation
+
+```{r }
+library(devtools)
+install_github("pdwaggoner/amerika")
+library(amerika)
+
+# v0.1.0 soon to be released on CRAN
+```
+
 ## Use
 
 Users simply supply the name of the desired palette in the main function `amerika_palette()`, along with the number of colors desired from the palette (e.g., only 4 from a 5-color palette), and whether "continuous" or "discrete" `type` mapping is desired. 
