@@ -31,42 +31,64 @@ Users simply supply the name of the desired palette in the main function `amerik
 ```{r }
 amerika_palette("Republican")
 ```
-![Republican | 691x686,10%](rep.png)
+![](rep.png)
 
 
 ```{r }
 amerika_palette("Democrat")
 ```
-![](figure/dem.png)
+![](dem.png)
 
 
 ```{r }
 amerika_palette("Dem_Ind_Rep3")
 ```
-![](figure/dir3.png)
+![](dir3.png)
 
 
 ```{r }
 amerika_palette("Dem_Ind_Rep5")
 ```
-![](figure/dir5.png)
+![](dir5.png)
 
 
 ```{r }
 amerika_palette("Dem_Ind_Rep7")
 ```
-![](figure/dir7.png)
+![](dir7.png)
 
 
 ## Example: Interpolating between existing colors based on the palettes using the "continuous" `type`
 
 ```{r }
 amerika_palette(50, name = "Republican", type = "continuous")
+```
+![](rcont.png)
+
+
+```{r }
 amerika_palette(50, name = "Democrat", type = "continuous")
+```
+![](dcont.png)
+
+
+```{r }
 amerika_palette(50, name = "Dem_Ind_Rep3", type = "continuous")
+```
+![](dir3cont.png)
+
+
+```{r }
 amerika_palette(50, name = "Dem_Ind_Rep5", type = "continuous")
+```
+![](dir5cont.png)
+
+
+```{r }
 amerika_palette(50, name = "Dem_Ind_Rep7", type = "continuous")
 ```
+![](dir7cont.png)
+
 
 ## Example: (Fake) Political Cases (Discrete and Continuous)
 
@@ -87,8 +109,12 @@ data <- data %>%
 ggplot(data, aes(Party)) +
   geom_bar(fill=amerika_palette(name = "Dem_Ind_Rep3")) + 
   theme_bw()
+```
+![](poldisc.png)
 
 
+```{r }
+library(tidyverse)
 # Continuous: "ideology" on a 100 point scale (hypothetical for demo purposes only)
 data1 <- data.frame(sample(1:100, 3000, replace=TRUE))
 
@@ -102,6 +128,8 @@ ggplot(data1, aes(id)) +
        y = "Count of Respondents") +
   theme_bw()
 ```
+![](polcont.png)
+
 
 ## Example: Non-Political Case
 
@@ -112,12 +140,20 @@ library(tidyverse)
 ggplot(diamonds, aes(factor(cut), fill = factor(cut))) +
   geom_bar(fill=amerika_palette("Dem_Ind_Rep5")) + 
   theme_bw()
+```
+![](nonpol5.png)
+
+
+```{r }
+library(tidyverse)
 
 # 7-level (discrete) palette
 ggplot(diamonds, aes(factor(color), fill = factor(color))) +
   geom_bar(fill=amerika_palette("Dem_Ind_Rep7")) + 
   theme_bw()
 ```
+![](nonpol7.png)
+
 
 ## How do I get `amerika`? 
 
