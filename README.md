@@ -25,7 +25,7 @@ Users simply supply the name of the desired palette in the main function `amerik
 4. `Dem_Ind_Rep5`: five colors including two shades of blue, one shade of gray, and two shades of red
 5. `Dem_Ind_Rep7`: seven colors including three shades of blue, one shade of gray, and three shades of red
 
-## Example: Displaying each palette
+### Displaying each palette
 
 ```{r }
 amerika_palette("Republican")
@@ -57,39 +57,39 @@ amerika_palette("Dem_Ind_Rep7")
 ![](dir7.png)
 
 
-## Example: Interpolating between existing colors based on the palettes using the "continuous" `type`
+### Interpolating between existing colors based on the palettes using the "continuous" `type`
 
 ```{r }
-amerika_palette(50, name = "Republican", type = "continuous")
+amerika_palette(n = 50, name = "Republican", type = "continuous")
 ```
 ![](rcont.png)
 
 
 ```{r }
-amerika_palette(50, name = "Democrat", type = "continuous")
+amerika_palette(n = 50, name = "Democrat", type = "continuous")
 ```
 ![](dcont.png)
 
 
 ```{r }
-amerika_palette(50, name = "Dem_Ind_Rep3", type = "continuous")
+amerika_palette(n = 50, name = "Dem_Ind_Rep3", type = "continuous")
 ```
 ![](dir3cont.png)
 
 
 ```{r }
-amerika_palette(50, name = "Dem_Ind_Rep5", type = "continuous")
+amerika_palette(n = 50, name = "Dem_Ind_Rep5", type = "continuous")
 ```
 ![](dir5cont.png)
 
 
 ```{r }
-amerika_palette(50, name = "Dem_Ind_Rep7", type = "continuous")
+amerika_palette(n = 50, name = "Dem_Ind_Rep7", type = "continuous")
 ```
 ![](dir7cont.png)
 
 
-## Example: (Fake) Political Cases (Discrete and Continuous)
+### (Fake) Political Cases (Discrete and Continuous)
 
 ```{r }
 library(tidyverse)
@@ -122,7 +122,7 @@ data1 <- data1 %>%
   as.data.frame()
 
 ggplot(data1, aes(id)) +
-  geom_bar(fill=amerika_palette(100, name = "Dem_Ind_Rep7", type = "continuous")) +
+  geom_bar(fill=amerika_palette(n = 100, name = "Dem_Ind_Rep7", type = "continuous")) +
   labs(x = "Political Ideology (Liberal - Conservative)",
        y = "Count of Respondents") +
   theme_bw()
@@ -130,7 +130,7 @@ ggplot(data1, aes(id)) +
 ![](polcont.png)
 
 
-## Example: Non-Political Cases (5 and 7 level palettes)
+### Non-Political Cases (5 and 7 level palettes)
 
 ```{r }
 library(tidyverse)
