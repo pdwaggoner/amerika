@@ -16,7 +16,7 @@ devtools::install_github("pdwaggoner/amerika")
 library(amerika)
 ```
 
-Or the latest stable release (v0.1.0) from CRAN:
+Or get the latest stable release (v0.1.0) from CRAN:
 
 ```{r }
 install.packages("amerika")
