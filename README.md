@@ -1,5 +1,5 @@
 # `amerika`: An American politics-inspired color palette generator
-[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/amerika)](http://cranlogs.r-pkg.org/)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/amerika)](http://cran.r-project.org/package=amerika)
 
 With a nod to Franz Kafka's first (and technically incomplete) novel, _Amerika_, the `amerika` package offers a variety of a American-politics inspired color palettes for a host of applications both in an out of politics. Building on Karthik Ram's approach to designing color palettes in the `wesanderson` package (with permission), `amerika` offers a variety of color palettes ranging from blue on the left to gray in the middle and red on the right. 
 
