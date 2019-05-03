@@ -9,11 +9,18 @@ Palette options range from only a few colors to several colors, but with discret
 
 ## Installation
 
+ Get the latest (dev) version:
+
 ```{r }
 devtools::install_github("pdwaggoner/amerika")
 library(amerika)
+```
 
-# v0.1.0 soon to be released on CRAN
+Or the latest stable release (v0.1.0) from CRAN:
+
+```{r }
+install.packages("amerika")
+library(amerika)
 ```
 
 ## Use
