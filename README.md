@@ -160,5 +160,5 @@ ggplot(diamonds, aes(factor(color), fill = factor(color))) +
 
 ## How do I get `amerika`? 
 
-While the package is available for download at CRAN, `amerika` is stored and developed at this GitHub repository, <https://github.com/pdwaggoner/amerika/>, along with an [issue tracker](https://github.com/pdwaggoner/amerika/issues/) for reporting bugs as well as suggesting package extensions and/or enhancements. In the spirit of open science, I welcome any level of interaction with the package.
+While the package is available for download at [CRAN](https://CRAN.R-project.org/package=amerika), `amerika` is stored and developed at this GitHub repository, <https://github.com/pdwaggoner/amerika/>, along with an [issue tracker](https://github.com/pdwaggoner/amerika/issues/) for reporting bugs as well as suggesting package extensions and/or enhancements. In the spirit of open science, I welcome any level of interaction with the package.
 
