@@ -1,9 +1,10 @@
 # `amerika`: An American politics-inspired color palette generator
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/amerika)](http://cran.r-project.org/package=amerika)
 [![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/amerika)](http://cranlogs.r-pkg.org/)
+[![HitCount](http://hits.dwyl.io/{pdwaggoner}/{amerika}.svg)](http://hits.dwyl.io/{pdwaggoner}/{amerika})
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=plastic)](https://github.com/pdwaggoner/amerika/pulls)
 
-With a nod to Franz Kafka's first (and incomplete) novel, _Amerika_, the `amerika` package offers a variety of a American-politics inspired color palettes for a host of applications both in an out of politics. Building on Karthik Ram's approach to designing color palettes in the `wesanderson` package (with permission), `amerika` offers a variety of color palettes ranging from blue on the left to gray in the middle and red on the right.
+With a nod to Franz Kafka's first (and incomplete) novel, _Amerika_, the `amerika` package offers a variety of a American-politics inspired color palettes for a host of applications both in and out of politics. Building on Karthik Ram's approach to designing color palettes in the `wesanderson` package (with permission), `amerika` offers a variety of color palettes ranging from blue on the left to gray in the middle and red on the right.
 
 Palette options range from only a few colors to several colors, but with discrete and continuous options to offer greatest flexibility to the user. `amerika` allows for a range of applications, from mapping brief discrete scales (e.g., three colors for Democrats, Independents, and Republicans) to continuous interpolated arrays including dozens of shades graded from blue to red (e.g., visualizing preference "feeling thermometers"). See below for a list of the palettes followed by a few political and non-political examples.
 
