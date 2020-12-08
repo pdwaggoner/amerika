@@ -100,7 +100,7 @@ amerika_palette(n = 50, name = "Dem_Ind_Rep7", type = "continuous")
 ![](dir7cont.png)
 
 
-### (Fake) Political Cases (Discrete and Continuous)
+### Example Political Cases (Discrete and Continuous)
 
 ```{r }
 library(tidyverse)
@@ -115,7 +115,7 @@ data <- data %>%
                         `3` = "Republican")) %>%
   as.data.frame()
 
-# Discrete: "political party" on a three point scale (hypothetical for demo purposes only)
+# Discrete: "political party" on a three point scale (hypothetical, of course)
 ggplot(data, aes(Party)) +
   geom_bar(fill=amerika_palette(name = "Dem_Ind_Rep3")) + 
   theme_bw()
