@@ -10,15 +10,6 @@ Palette options range from only a few colors to several colors, but with discret
 
 ## Installation
 
- Dev:
-
-```{r }
-devtools::install_github("pdwaggoner/amerika")
-library(amerika)
-```
-
-CRAN:
-
 ```{r }
 install.packages("amerika")
 library(amerika)
