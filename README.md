@@ -96,15 +96,11 @@ amerika_palette(n = 50, name = "Dem_Ind_Rep7", type = "continuous")
 ```{r }
 library(tidyverse)
 
-data <- data.frame(sample(1:3, 3000, replace=TRUE))
-
-data <- data %>%
-  rename(pid = sample.1.3..3000..replace...TRUE.) %>%
+data <- data.frame(pid = sample(1:3, 3000, replace=TRUE)) %>%
   mutate(Party = recode(pid,
                         `1` = "Democrat",
                         `2` = "Independent",
-                        `3` = "Republican")) %>%
-  as.data.frame()
+                        `3` = "Republican"))
 
 # Discrete: "political party" on a three point scale (hypothetical, of course)
 ggplot(data, aes(Party)) +
@@ -117,11 +113,7 @@ ggplot(data, aes(Party)) +
 ```{r }
 library(tidyverse)
 # Continuous: "ideology" on a 100 point scale (hypothetical for demo purposes only)
-data1 <- data.frame(sample(1:100, 3000, replace=TRUE))
-
-data1 <- data1 %>%
-  rename(id = sample.1.100..3000..replace...TRUE.) %>%
-  as.data.frame()
+data1 <- data.frame(id = sample(1:100, 3000, replace=TRUE))
 
 ggplot(data1, aes(id)) +
   geom_bar(fill=amerika_palette(n = 100, name = "Dem_Ind_Rep7", type = "continuous")) +
