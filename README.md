@@ -1,6 +1,6 @@
 # `amerika`: An American politics-inspired color palette generator
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/amerika)](http://cran.r-project.org/package=amerika)
-[![Downloads](http://cranlogs.r-pkg.org/badges/grand-total/amerika)](http://cranlogs.r-pkg.org/)
+[![Downloads](https://cranlogs.r-pkg.org/badges/grand-total/amerika)](https://cran.r-project.org/package=amerika)
 [![Documentation](https://img.shields.io/badge/documentation-amerika-orange.svg?colorB=E91E63)](https://www.r-pkg.org/pkg/amerika)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=plastic)](https://github.com/pdwaggoner/amerika/pulls)
 
