@@ -1,7 +1,7 @@
 Package: amerika
 Type: Package
 Title: American Politics-Inspired Color Palette Generator
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Philip", "Waggoner", role = c("aut", "cre"),
     email = "philip.waggoner@gmail.com", comment = c(ORCID = "0000-0002-7825-7573"))
 Maintainer: Philip D. Waggoner <philip.waggoner@gmail.com>
